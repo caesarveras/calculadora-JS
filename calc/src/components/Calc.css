@@ -1,0 +1,70 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: auto;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.calculator h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.calculator .input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+.calculator .input-container input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.calculator .button-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.calculator .button-container button {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.calculator .button-container button:hover {
+  background-color: #0056b3;
+}
+.calculator .button-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.calculator .result, .calculator .error-message {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("https://images.alphacoders.com/135/thumb-1920-1358310.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}/*# sourceMappingURL=Calc.css.map */
